@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin/internet-veyon-plugin
+CMAKE_SOURCE_DIR = /home/ivjut/internet-veyon-plugin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin/internet-veyon-plugin/build
+CMAKE_BINARY_DIR = /home/ivjut/internet-veyon-plugin/build
 
 # Utility rule file for internetcontrol_autogen_timestamp_deps.
 
@@ -66,8 +66,8 @@ include CMakeFiles/internetcontrol_autogen_timestamp_deps.dir/compiler_depend.ma
 # Include the progress variables for this target.
 include CMakeFiles/internetcontrol_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/internetcontrol_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CMakeFiles/internetcontrol_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/internetcontrol_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CMakeFiles/internetcontrol_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 CMakeFiles/internetcontrol_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/internetcontrol_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
@@ -85,6 +85,6 @@ CMakeFiles/internetcontrol_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/internetcontrol_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/internetcontrol_autogen_timestamp_deps.dir/depend:
-	cd /home/admin/internet-veyon-plugin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin/internet-veyon-plugin /home/admin/internet-veyon-plugin /home/admin/internet-veyon-plugin/build /home/admin/internet-veyon-plugin/build /home/admin/internet-veyon-plugin/build/CMakeFiles/internetcontrol_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ivjut/internet-veyon-plugin/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivjut/internet-veyon-plugin /home/ivjut/internet-veyon-plugin /home/ivjut/internet-veyon-plugin/build /home/ivjut/internet-veyon-plugin/build /home/ivjut/internet-veyon-plugin/build/CMakeFiles/internetcontrol_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/internetcontrol_autogen_timestamp_deps.dir/depend
 
